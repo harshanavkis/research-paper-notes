@@ -42,6 +42,7 @@ Navigate to the folder containing the source code and open params.yml:
   * quantization : enter number of bits and a bool(True or False) to include it
   * channel      : enter True for a particular channel that you wish to select, and set its parameters. If more than one channel is set True, program exits. If all are False no channel is used in the simulation.
   * concealment  : enter True for the concealment you wish to select and set its parameters, if any. If more than one concealment is set True, program exits. If all are False no channel is selected.
+* OutputDir: location of the directory where the test data must be stored
   
 ## Running your own simulations:
 Change your current working directory to the source directory containing main.py .
